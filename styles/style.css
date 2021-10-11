@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html, body {
+    height: 100%;
+    }
+body{
+    font-family: 'Roboto Slab', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+    }
+/*Стили главной страницы*/
+.img-main{
+    width: 100%; height: 300 px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    object-position: center;
+}
+.cats-main{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+/*Стили страницы заявки*/
+.text-reg{
+    font-size: 15px;
+    text-transform:none;
+    text-align: center;
+    color:#373A3C;
+    position: relative;
+}
+
+.text-reg-st{
+    font-size: 20px;
+    /*text-transform:uppercase;*/
+    text-align:left;
+    color:#000000;
+    position: relative;
+}
+
+/*Стили страницы моделей*/
+.img-mods{
+    width: 100%; height: 256.15 px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*Стиль футера и хедера*/
+.footer{
+    color: black;
+}
+.text-reg-fh {
+    font-size: 15px;
+    text-transform:uppercase;
+    text-align: center;
+    color:#000000;
+    position: relative;
+    line-height: 2;
+}
+.social-media{
+    margin-left: 20px;
+    line-height: 20;
+}
